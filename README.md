@@ -117,7 +117,7 @@ Start by cloning the project repository from GitHub:
 
 ```bash
 git clone https://github.com/Tarpit59/Dynamic-Web-Content-Analyzer.git
-cd Dynamic Web Content Analyzer
+cd Dynamic-Web-Content-Analyzer
 
 ```
 ### 2. Set up a virtual environment:
