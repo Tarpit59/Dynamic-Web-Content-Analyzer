@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Web Content Analyzer</title>
+
+    <link rel="icon" href="static/images/favicon.ico" type="image/x-icon">
+
+    <!-- CSS: Link to your custom styles -->
+    <link rel="stylesheet" href="static/css/style.css">
+
+    <!-- Plotly: For dynamic charts -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+    <!-- WordCloud2.js: For word cloud generation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wordcloud2.js/1.0.6/wordcloud2.min.js"></script>
+
+    <!-- D3.js: Required for word cloud generation -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-cloud/build/d3.layout.cloud.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div id="logo-container">
+            <img src="static/images/logo.png" alt="Logo" class="logo">
+            <img src="static/images/text.png" alt="Name" class="name-image">
+        </div>
+
+        <form id="urlForm">
+            <div id="urlList">
+                <!-- Dynamically added URLs will appear here, one below the other -->
+            </div>
+            <input type="text" id="newUrl" placeholder="Enter a URL">
+            <div id="buttonContainer">
+                <button type="button" id="addUrlBtn">Add URL</button>
+                <button type="submit">Analyze</button>
+            </div>
+        </form>
+        
+        <div id="output-container">
+            <div id="word-cloud-container" class="results-section">
+                <div id="wordCloud"></div>
+            </div>
+
+            <div id="sentimentChart" class="results-section" style="width: 100%; height: 400px;"></div>
+
+            <div id="readabilityChart" class="results-section" style="width: 100%; height: 400px;"></div>
+        </div>
+    </div>
+
+    <script src="/static/js/main.js"></script>
+    
+</body>
+</html>

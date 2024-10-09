@@ -1,0 +1,5 @@
+# Python package
+__pycache__
+
+# Created while testing
+/.pytest_cache
