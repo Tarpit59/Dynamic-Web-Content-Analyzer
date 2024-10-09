@@ -186,9 +186,9 @@ source venv/bin/activate
 
 ## Screenshots
 
-![Web App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Web App Screenshot](https://github.com/Tarpit59/Dynamic-Web-Content-Analyzer/blob/main/base/static/images/ui_1.png)
 
-![Web App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Web App Screenshot](https://github.com/Tarpit59/Dynamic-Web-Content-Analyzer/blob/main/base/static/images/ui_2.png)
 
 
 ## 🔗 Links
