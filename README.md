@@ -153,7 +153,7 @@ python app.py
 This will start the server on http://127.0.0.1:5000/ You can now visit this URL in your browser to access the app.
 ## Running Tests
 
-[Documentation](https://linktodocumentation)
+[Documentation](https://github.com/Tarpit59/Dynamic-Web-Content-Analyzer/blob/main/base/tests/README.md)
 
 ### 1. Activate the virtual environment:
 
